@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: 0 0 29 * *
+    - cron: 0 9 20 2,5,8,11 *
 name: Newsletter Reminder
 jobs:
   newsletter-reminder:
